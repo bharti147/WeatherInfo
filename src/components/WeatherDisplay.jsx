@@ -56,14 +56,14 @@ lg:mr-0
       <div className="w-full h-auto flex items-center justify-around 
       md:flex-col md:mt-8 
       ">
-        <h1 className={`text-5xl tracking-tight font-semibold ${textColor}
-        xs:text-6xl
+        <h1 className={`text-[2.15rem]  tracking-tight font-semibold ${textColor}
+        xs:text-5xl
         md:mb-5 md:text-[2.5rem] md:font-normal
         lg:font-semibold lg:text-5xl
         `}>{temperature}{`${isFahrenheit?'º F':'º C'}`}</h1>
         <div className={`w-auto h-auto text-sm px-2 flex flex-col  ${textColor} md:items-center`}>
-          <p className="xs:text-base sm-md:text-base sm:text-lg md:text-xl lg:text-2xl">{desc}</p>
-          <p className="xs:text-base sm-md:text-base sm:text-lg md:text-xl lg:text-2xl">H:{highTemp}{`${isFahrenheit?'º F':'º C'}`} | L:{lowTemp}{`${isFahrenheit?'º F':'º C'}`}</p>
+          <p className="xs:text-base sm-md:text-base sm:text-lg md:text-xl lg:text-xl">{desc}</p>
+          <p className="xs:text-base sm-md:text-base sm:text-lg md:text-xl lg:text-xl">H:{highTemp}{`${isFahrenheit?'º F':'º C'}`} | L:{lowTemp}{`${isFahrenheit?'º F':'º C'}`}</p>
         </div>
       </div>
     </div>

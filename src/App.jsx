@@ -103,7 +103,10 @@ function App() {
 
 
   return (
-    <div className={`w-full h-auto px-8 py-12 flex flex-col items-center ${currentBgColor} `}>
+    <div className={`w-full h-auto px-6 py-12 flex flex-col items-center ${currentBgColor} 
+    xs:px-8 
+    sm-md:px-12
+    `}>
       <CitySearch onCitySelect={setSelectedCity} desc={desc}/>
 
       {loading ? (

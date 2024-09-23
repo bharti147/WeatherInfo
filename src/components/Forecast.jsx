@@ -38,7 +38,7 @@ function Forecast({ convertTemperature, lat, lon, isFahrenheit }) {
   return (
     <div 
      style={{ backgroundColor: "rgba(220, 236, 251, 0.5)" }} // Translucent background
-    className={` relative z-1 mt-16 pt-6 pb-10 w-full h-auto flex  flex-col items-center border border-gray-400 rounded-xl bg-opacity-75
+    className={` relative z-1  mt-16 pt-6 pb-10 w-full h-auto flex  flex-col items-center border border-gray-400 rounded-xl bg-opacity-75
       sm-md:px-4
      `}>
        <h1 className="text-yellow-500 mb-5 text-xl  font-extrabold
