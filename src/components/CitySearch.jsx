@@ -64,6 +64,7 @@ function CitySearch({ onCitySelect,desc }) {
     if (e.target.value.trim() === "") {
       setIsDropdownOpen(false);
       setcitySuggestions([]);
+      setError(""); // Reset error message when input is cleared
       onCitySelect({ name: "New York" });
     }
   };
