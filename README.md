@@ -66,7 +66,7 @@ You can view the live application [Weather Peek](https://weather-peek.netlify.ap
 This project is licensed under the MIT License.
 
 ## Contact
-For inquiries, please contact [bhartisahani406@gmail.com]
+For inquiries, please contact [bhartisahani406@gmail.com](bhartisahani406@gmail.com)
 
 ## Acknowledgments
 OpenWeatherMap API for weather data.
